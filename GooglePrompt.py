@@ -26,5 +26,4 @@ def prompt_template_chat_with_messages():
     result = model.invoke(prompt)
     return format_output(result.content)
 
-
 #print(prompt_template_chat_with_messages())
