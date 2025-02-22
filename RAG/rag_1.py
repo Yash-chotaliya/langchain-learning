@@ -6,7 +6,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 
 # Define the directory containing the text file and the persistent directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(current_dir, "documents", "lord_of_the_rings.txt")
+file_path = os.path.join(current_dir, "documents", "book_1.txt")
 persistent_directory = os.path.join(current_dir, "db", "chroma_db")
 
 # Check if the Chroma vector store already exists
