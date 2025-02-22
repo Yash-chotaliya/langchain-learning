@@ -1,5 +1,8 @@
 python-dotenv
 langchain
-langchain_openai
-langchain_huggingface
-langchain_google_genai
+langchain-openai
+langchain-huggingface
+langchain-google-genai
+langchain-community
+chromadb
+langchain-chroma
